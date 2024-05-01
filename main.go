@@ -21,7 +21,7 @@ type Timer struct {
 }
 
 func createTimers() map[int]Timer {
-	t1 := Timer{Work: 1, Rest: 1}
+	t1 := Timer{Work: 25, Rest: 5}
 	t2 := Timer{Work: 50, Rest: 10}
 	t3 := Timer{Work: 100, Rest: 20}
 	return map[int]Timer{1: t1, 2: t2, 3: t3}
